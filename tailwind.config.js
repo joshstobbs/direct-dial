@@ -5,10 +5,6 @@ module.exports = {
         removeDeprecatedGapUtilities: true,
         purgeLayersByDefault: true,
     },
-    purge: {
-        mode: 'all',
-        content: ['./src/**/*.{js,jsx}'],
-    },
     theme: {
         extend: {
             fontFamily: {
